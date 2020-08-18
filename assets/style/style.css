@@ -49,21 +49,18 @@ aside { width: 25%; }
 #page-nav h3, #other-article h3, #contact h3 { margin: 0; }
 
 /* HEADER */
-header #title-icon {
-    position: absolute;
-    margin: 5em 0 0 0em;
-}
-#page-icon { width: 10em; }
-#page-title { padding: 1em;}
+header { position: relative; }
+#page-icon { margin: 6em 0 0 2em; position: absolute; width: 10em; }
+#page-title { margin: 6em 0 0 2em; position: absolute; padding: 0.25em 0 0 12em;}
 #page-title h1, #page-title p { margin: 0.4em 0 0 0; }
 
 #content { width: 75%; }
 
-#header-bg { height: 10em; }
+#header-bg { height: 12em; }
 
 #main-nav {
     background-color: rgb(245, 245, 245);
-    padding: 1em 0 1em 15em;
+    padding: 1em 0 1em 14em;
     margin: 0;
     position: sticky;
     top: 0;
@@ -94,6 +91,8 @@ header #title-icon {
 .tiny-img { height: 2em; }
 
 .auto-margin { margin: auto; }
+
+.stack-top { z-index: 9; }
 
 @media screen and (max-width: 1000px) {
     #content, aside {
