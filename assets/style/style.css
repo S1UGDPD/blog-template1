@@ -1,0 +1,105 @@
+* { box-sizing: border-box; }
+
+a { text-decoration: none; }
+a:hover { font-weight: bold; }
+
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    background-color: whitesmoke;
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #434F54;
+}
+
+footer {
+    background-color: #434F54;
+    color: white;
+    font-weight: bold;  
+    padding: 2em;
+    text-align: center;
+}
+
+header {
+    background-color: whitesmoke;
+    background-image: url("assets/image/head-bg.png");
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+main {
+    padding: 1em;
+    overflow: auto;
+}
+
+ul { margin: 0; padding: 0; list-style-type: square;}
+
+/* ASIDE */
+aside { width: 25%; }
+#page-nav, #other-article, #contact { padding: 2em; }
+#page-nav ul, #other-article ul, #contact ul { padding: 0.5em 0 0 1.5em; }
+#page-nav h3, #other-article h3, #contact h3 { margin: 0; }
+
+/* HEADER */
+header #title-icon {
+    position: absolute;
+    margin: 5em 0 0 0em;
+}
+#page-icon { width: 10em; }
+#page-title { padding: 1em;}
+#page-title h1, #page-title p { margin: 0.4em 0 0 0; }
+
+#content { width: 75%; }
+
+#header-bg { height: 10em; }
+
+#main-nav {
+    background-color: rgb(245, 245, 245);
+    padding: 1em 0 1em 15em;
+    margin: 0;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.075);
+}
+#main-nav ul li {
+    display: inline;
+    margin-right: 2em;
+}
+#main-nav ul li a { color: #434F54; }
+
+.card {
+    box-shadow: 0 4px 8px 0 #00000020;
+    background-color: white;
+    margin: 1.5em 1em 1.5em;
+    padding: 5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.float-left { float: left;}
+
+.float-right { float: right;}
+
+.soft-img { border-radius: 10px; }
+
+.tiny-img { height: 2em; }
+
+.auto-margin { margin: auto; }
+
+@media screen and (max-width: 1000px) {
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+    #article1, #article2 { padding: 2em; }
+    #main-nav { padding: 1em; }
+}
