@@ -83,10 +83,6 @@ footer {
     margin-top: 20px;
 }
 
-.float-left { float: left;}
-
-.float-right { float: right;}
-
 .soft-img { border-radius: 10px; }
 
 .tiny-img { height: 2em; }
@@ -97,15 +93,6 @@ footer {
 
 .relative { position: relative; }
 
-@media screen and (max-width: 1000px) {
-    #content, aside {
-        width: 100%;
-        padding: 0;
-    }
-    #article1, #article2 { padding: 2em; }
-    #main-nav { padding: 1em; }
-}
-
 .container-column {
     display: flex;
     flex-direction: column;
@@ -115,4 +102,13 @@ footer {
 .container-row {
     display: flex;
     flex-direction: row;
+}
+
+@media screen and (max-width: 1000px) {
+    #content, aside {
+        width: 100%;
+        padding: 0;
+    }
+    #article1, #article2 { padding: 2em; }
+    #main-nav { padding: 1em; }
 }
