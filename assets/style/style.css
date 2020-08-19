@@ -111,4 +111,11 @@ footer {
     }
     #article1, #article2 { padding: 2em; }
     #main-nav { padding: 1em; }
+
+
+    #page-description { flex-direction: column; margin: 3em 0 0 1.5em; }
+    #page-icon { width:100px; }
+    #page-title { padding: 0.5em 0; }
+    #page-title p { display: none; }
+
 }
