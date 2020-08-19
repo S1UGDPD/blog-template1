@@ -63,7 +63,6 @@ aside { flex-grow: 1; width: 25%; }
 #page-nav ul, #other-article ul, #contact ul { padding: 0.5em 0 0 1.5em; }
 #page-nav h3, #other-article h3, #contact h3 { margin: 0; }
 
-
 /* FOOTER */
 #footer {
     flex-grow: 1;
@@ -92,10 +91,6 @@ aside { flex-grow: 1; width: 25%; }
 .auto-margin { margin: auto; }
 
 .absolute { position: absolute; }
-
-.float-left { float: left;}
-
-.float-right { float: right;}
 
 .relative { position: relative; }
 
