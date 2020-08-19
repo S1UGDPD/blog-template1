@@ -94,15 +94,15 @@ aside { flex-basis: 25%; }
 .tiny-img { height: 2em; }
 
 @media screen and (max-width: 1000px) {
-    #content, aside {
-        width: 100%;
-        padding: 0;
-    }
-    #article1, #article2 { padding: 2em; }
+    /* MAIN NAVIGATOR */
     #main-nav { padding: 1em; padding-left: 2em; }
+        #page-description { flex-direction: column; margin: 3em 0 0 1.5em; }
+            #page-icon { width:100px; }
+            #page-title { padding: 0.5em 0; }
+                #page-title p { display: none; }
 
-    #page-description { flex-direction: column; margin: 3em 0 0 1.5em; }
-    #page-icon { width:100px; }
-    #page-title { padding: 0.5em 0; }
-    #page-title p { display: none; }
+    /* CONTENT */
+    #main-container { flex-direction: column; }
+        #article1, #article2 { padding: 2.5em; }
+        #page-nav { display: none; }
 }
