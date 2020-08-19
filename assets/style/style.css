@@ -33,8 +33,12 @@ th { text-align: center;}
 td { padding: 0.25em; }
 
 /* HEADER */
-#page-icon { margin: 6em 0 0 2em; width: 10em; }
-#page-title { margin: 6em 0 0 2em; padding: 0.25em 0 0 12em;}
+#page-description { margin: 6em 0 0 2em; }
+#page-icon {
+    width: 10em;
+    z-index: 2;
+}
+#page-title { padding-left: 2em; }
 #page-title h1, #page-title p { margin: 0.4em 0 0 0; }
 #header-bg { height: 12em; }
 
@@ -88,8 +92,6 @@ footer {
 .tiny-img { height: 2em; }
 
 .auto-margin { margin: auto; }
-
-.stack-top { z-index: 2; }
 
 .absolute { position: absolute; }
 
