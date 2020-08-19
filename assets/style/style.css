@@ -13,6 +13,8 @@ body {
     color: #434F54;
 }
 
+header { display: inline; }
+
 img {
     width: 100%;
     object-fit: cover;
@@ -31,24 +33,19 @@ th { text-align: center;}
 td { padding: 0.25em; }
 
 /* HEADER */
-header {
-    background-color: whitesmoke;
-    background-image: url("assets/image/head-bg.png");
-    display: inline;
-    margin: 0;
-    padding: 0;
-}
 #page-icon { margin: 6em 0 0 2em; width: 10em; }
 #page-title { margin: 6em 0 0 2em; padding: 0.25em 0 0 12em;}
 #page-title h1, #page-title p { margin: 0.4em 0 0 0; }
 #header-bg { height: 12em; }
+
+/* MAIN NAVIGATOR */
 #main-nav {
     background-color: rgb(245, 245, 245);
-    padding: 1em 0 1em 14em;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.075);
     margin: 0;
+    padding: 1em 0 1em 14em;
     position: sticky;
     top: 0;
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.075);
 }
 #main-nav ul li { display: inline; margin-right: 2em; }
 #main-nav ul li a { color: #434F54; }
