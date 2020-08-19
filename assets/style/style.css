@@ -26,6 +26,9 @@ main {
 
 ul { margin: 0; padding: 0; list-style-type: square;}
 
+th { text-align: center;}
+
+td { padding: 0.25em; }
 
 /* HEADER */
 header {
@@ -35,8 +38,8 @@ header {
     margin: 0;
     padding: 0;
 }
-#page-icon { margin: 6em 0 0 2em; position: absolute; width: 10em; }
-#page-title { margin: 6em 0 0 2em; position: absolute; padding: 0.25em 0 0 12em;}
+#page-icon { margin: 6em 0 0 2em; width: 10em; }
+#page-title { margin: 6em 0 0 2em; padding: 0.25em 0 0 12em;}
 #page-title h1, #page-title p { margin: 0.4em 0 0 0; }
 #header-bg { height: 12em; }
 #main-nav {
@@ -58,6 +61,7 @@ aside { width: 25%; }
 #page-nav, #other-article, #contact { padding: 2em; }
 #page-nav ul, #other-article ul, #contact ul { padding: 0.5em 0 0 1.5em; }
 #page-nav h3, #other-article h3, #contact h3 { margin: 0; }
+
 
 /* FOOTER */
 footer {
@@ -90,6 +94,10 @@ footer {
 
 .stack-top { z-index: 2; }
 
+.absolute { position: absolute; }
+
+.relative { position: relative; }
+
 @media screen and (max-width: 1000px) {
     #content, aside {
         width: 100%;
@@ -97,4 +105,15 @@ footer {
     }
     #article1, #article2 { padding: 2em; }
     #main-nav { padding: 1em; }
+}
+
+.container-column {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container-row {
+    display: flex;
+    flex-direction: row;
 }

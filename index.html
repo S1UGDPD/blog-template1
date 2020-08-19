@@ -8,22 +8,37 @@
 
     <body>
         <header>
-            <figure id="page-icon" class="float-left, stack-top">
-                <img src="assets/image/logo.png" alt="logo" class="soft-img">
-            </figure>
-            <div id="page-title">
-                <h1> Lorem ipsum </h1>
-                <p> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... <br>
-                    There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain... </p>    
+            <div class="container-row relative">
+
+                <div class="container-column absolute">
+                    <figure id="page-icon" class="stack-top">
+                        <img src="assets/image/logo.png" alt="logo" class="soft-img">
+                    </figure>
+                </div>
+                
+                <div class="container-column absolute">
+                    <div id="page-title">
+                        <h1> Lorem ipsum </h1>
+                        <p> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit... <br>
+                            There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain... </p>    
+                    </div>
+                </div>
+
+                <img id="header-bg" src="assets/image/head-bg.png" alt="bg-img" >
             </div>
-            <img id="header-bg" src="assets/image/head-bg.png" alt="bg-img" >
-            <nav id="main-nav">
-                <ul>
-                    <li> <a href="#" target="_blank"> HOME </a> </li>
-                    <li> <a href="#" target="_blank"> ARTICLE </a> </li>
-                    <li> <a href="#" target="_blank"> ABOUT </a> </li>
-                </ul>
-            </nav>
+
+            <div class="container-row">
+                <nav id="main-nav">
+                    <ul>
+                        <li> <a href="#" target="_blank"> HOME </a> </li>
+                        <li> <a href="#" target="_blank"> ARTICLE </a> </li>
+                        <li> <a href="#" target="_blank"> ABOUT </a> </li>
+                    </ul>
+                </nav>
+            </div>
+
+            
+
         </header>
 
         <main>
@@ -77,14 +92,14 @@
                 <div id="contact" class="card">
                     <h3 align="center"> About Me </h3>
                     <img src="assets/image/profile.jpg" alt="profile-photo">
-                    <table id="auth-data" class="auto-margin">
+                    <table id="profile" class="auto-margin">
                         <tr>
-                            <td> Name </td>
-                            <td> Author</td>
+                            <th> Name </th>
+                            <td> : Author</td>
                         </tr>
                         <tr>
-                            <td> Profession </td>
-                            <td> Writter </td>
+                            <th> Profession </th>
+                            <td> : Writter </td>
                         </tr>
                     </table>
 
