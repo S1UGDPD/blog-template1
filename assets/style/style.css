@@ -1,8 +1,5 @@
+/* GLOBAL */
 * { box-sizing: border-box; }
-
-a { text-decoration: none; }
-a:hover { font-weight: bold; }
-
 body {
     margin: 0;
     padding: 0;
@@ -12,27 +9,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     color: #434F54;
 }
-
-header { display: inline; }
-
+main {
+    padding: 1em;
+    overflow: auto;
+}
 img {
     width: 100%;
     object-fit: cover;
     object-position: center;
 }
-
-main {
-    padding: 1em;
-    overflow: auto;
-}
-
+a { text-decoration: none; }
+a:hover { font-weight: bold; }
 ul { margin: 0; padding: 0; list-style-type: square;}
-
 th { text-align: center;}
-
 td { padding: 0.25em; }
 
 /* HEADER */
+header { display: inline; }
 #page-description { margin: 6em 0 0 2em; }
 #page-icon {
     width: 10em;
@@ -74,6 +67,7 @@ aside { flex-grow: 1; width: 25%; }
     text-align: center;
 }
 
+/* STYLE */
 .card {
     box-shadow: 0 4px 8px 0 #00000020;
     background-color: white;
