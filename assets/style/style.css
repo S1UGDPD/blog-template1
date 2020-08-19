@@ -91,12 +91,15 @@ footer {
 
 .absolute { position: absolute; }
 
+.float-left { float: left;}
+
+.float-right { float: right;}
+
 .relative { position: relative; }
 
 .container-column {
     display: flex;
     flex-direction: column;
-
 }
 
 .container-row {
@@ -110,5 +113,10 @@ footer {
         padding: 0;
     }
     #article1, #article2 { padding: 2em; }
-    #main-nav { padding: 1em; }
+    #main-nav { padding: 1em; padding-left: 2em; }
+
+    #page-description { flex-direction: column; margin: 3em 0 0 1.5em; }
+    #page-icon { width:100px; }
+    #page-title { padding: 0.5em 0; }
+    #page-title p { display: none; }
 }
