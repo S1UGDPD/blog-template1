@@ -65,7 +65,9 @@ aside { width: 25%; }
 
 
 /* FOOTER */
-footer {
+#footer {
+    flex-grow: 1;
+
     background-color: #434F54;
     color: white;
     font-weight: bold;  
