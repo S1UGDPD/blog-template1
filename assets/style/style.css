@@ -51,7 +51,7 @@ header { display: inline; }
 #content { flex-basis: 75%; }
 
 /* ASIDE */
-aside { flex-basis: 25%; height: 40em; overflow: scroll;}
+#aside { flex-basis: 25%; height: 40em; overflow: scroll;}
     #page-nav, #other-article, #contact { padding: 2em; }
     #page-nav ul, #other-article ul, #contact ul { padding: 0.5em 0 0 1.5em; }
     #page-nav h3, #other-article h3, #contact h3 { margin: 0; }
