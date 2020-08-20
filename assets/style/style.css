@@ -10,7 +10,7 @@ body {
     color: #434F54;
 }
 main {
-    padding: 1em;
+    padding: 3em 1em 1em 1em;
     overflow: auto;
 }
 img {
@@ -51,7 +51,7 @@ header { display: inline; }
 #content { flex-basis: 75%; }
 
 /* ASIDE */
-#aside { flex-basis: 25%; height: 40em; overflow: scroll;}
+#aside { flex-basis: 25%; height: 40em; overflow-y: scroll; }
     #page-nav, #other-article, #contact { padding: 2em; }
     #page-nav ul, #other-article ul, #contact ul { padding: 0.5em 0 0 1.5em; }
     #page-nav h3, #other-article h3, #contact h3 { margin: 0; }
@@ -73,11 +73,10 @@ header { display: inline; }
 
     box-shadow: 0 4px 8px 0 #00000020;
     background-color: white;
-    margin: 1.5em 1em 1.5em;
+    margin: 0 1em 1.5em 1em;
     padding: 5em;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     border-radius: 5px;
-    margin-top: 20px;
 }
 .container-column {
     display: flex;
