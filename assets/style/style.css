@@ -25,7 +25,12 @@ th { text-align: center;}
 td { padding: 0.25em; }
 
 /* HEADER */
-header { display: inline; }
+header {
+    background-image: url("/assets/image/head-bg.png");
+    background-size: cover;
+    height: 12em;
+}
+
 #page-description { margin: 6em 0 0 2em; }
 #page-icon {
     width: 10em;
@@ -33,7 +38,7 @@ header { display: inline; }
 }
 #page-title { padding-left: 2em; }
 #page-title h1, #page-title p { margin: 0.4em 0 0 0; }
-#header-bg { height: 12em; }
+
 
 /* MAIN NAVIGATOR */
 #main-nav {
