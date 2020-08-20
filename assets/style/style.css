@@ -30,7 +30,6 @@ header {
     background-size: cover;
     height: 12em;
 }
-
 #page-description { margin: 6em 0 0 2em; }
 #page-icon {
     width: 10em;
@@ -38,7 +37,6 @@ header {
 }
 #page-title { padding-left: 2em; }
 #page-title h1, #page-title p { margin: 0.4em 0 0 0; }
-
 
 /* MAIN NAVIGATOR */
 #main-nav {
