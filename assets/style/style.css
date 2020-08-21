@@ -114,9 +114,14 @@ header {
         #page-icon { width:100px; }
         #page-title { padding: 0.5em 0; }
             #page-title p { display: none; }
-
+    
     /* MAIN NAVIGATOR */
-    #main-nav { padding: 1em; padding-left: 2em; }
+    #main-nav {
+        overflow: auto;
+        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.075);
+    }
+    #main-nav > nav { padding: 1em; padding-left: 2em; }
+    #main-nav > div { display: none; }
 
     /* CONTENT */
     #main-container { flex-direction: column; }
