@@ -67,11 +67,9 @@ header {
     #page-nav ul, #other-article ul, #contact ul { padding: 0.5em 0 0 1.5em; }
     #page-nav h3, #other-article h3, #contact h3 { margin: 0; }
 
-/* CONTENT */
-#content { flex-basis: 75%; }
-
-/* ASIDE */
-
+/* MAIN */
+#main-container { flex-basis: 75%; }
+#blank-container { flex-basis: 25%; }
 
 /* FOOTER */
 #footer {
@@ -124,7 +122,7 @@ header {
     #main-nav > div { display: none; }
 
     /* CONTENT */
-    #main-container { flex-direction: column; }
+    #main-container { flex-basis: 100%; }
+    #blank-container { display: none; }
         #article1, #article2 { padding: 2.5em; }
-        #page-nav { display: none; }
 }
