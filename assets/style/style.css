@@ -49,9 +49,8 @@ header {
     margin: 0;
     padding: 1em 0 1em 14em;
 }
-#main-nav > nav > ul li { display: inline; margin-right: 2em; }
-#main-nav > nav > ul li a { color: #434F54; }
-
+    #main-nav > nav > ul li { display: inline; margin-right: 2em; }
+    #main-nav > nav > ul li a { color: #434F54; }
 #main-nav > div {
     flex-direction: row-reverse;
     position: absolute;
@@ -111,12 +110,13 @@ header {
 .tiny-img { height: 2em; }
 
 @media screen and (max-width: 1000px) {
+    #page-description { flex-direction: column; margin: 3em 0 0 1.5em; }
+        #page-icon { width:100px; }
+        #page-title { padding: 0.5em 0; }
+            #page-title p { display: none; }
+
     /* MAIN NAVIGATOR */
     #main-nav { padding: 1em; padding-left: 2em; }
-        #page-description { flex-direction: column; margin: 3em 0 0 1.5em; }
-            #page-icon { width:100px; }
-            #page-title { padding: 0.5em 0; }
-                #page-title p { display: none; }
 
     /* CONTENT */
     #main-container { flex-direction: column; }
