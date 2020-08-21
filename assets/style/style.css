@@ -70,6 +70,7 @@ header {
 /* MAIN */
 #main-container { flex-basis: 75%; }
 #blank-container { flex-basis: 25%; }
+aside #other-article, aside #contact { display: none; }
 
 /* FOOTER */
 #footer {
@@ -77,7 +78,7 @@ header {
 
     background-color: #434F54;
     color: white;
-    font-weight: bold;  
+    font-weight: bold;
     padding: 2em;
     text-align: center;
 }
@@ -125,4 +126,5 @@ header {
     #main-container { flex-basis: 100%; }
     #blank-container { display: none; }
         #article1, #article2 { padding: 2.5em; }
+    aside #other-article, aside #contact { display: block; }
 }
